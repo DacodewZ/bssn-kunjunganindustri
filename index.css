@@ -347,10 +347,10 @@
 :root {
     --primary-blue: #082189;      
     --accent-yellow: #f9c608;     
-    --card-radius: 18px;         /* Radius */
-    --image-radius: 18px 18px 0px 0px;        /* Radius gambar */
-    --card-width: 100%;          /* Lebar card */
-    --card-min-height: 0px;    /* Tinggi minimum card */
+    --card-radius: 18px;         
+    --image-radius: 18px 18px 0px 0px;        
+    --card-width: 100%;          
+    --card-min-height: 0px;    
 }
 
 /* SECTION */
@@ -374,23 +374,23 @@
 
 .cards-wrapper {
     width: 100%;
-    max-width: 1630px; /* Max lebar */
+    max-width: 1480px; 
     margin: 0 auto;
 }
 
 .cards-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* kolom */
-    gap: 30px; /* Jarak antar card */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
 }
 
 /* CARD */
 
 .info-card {
-    width: var(--card-width); /* Lebar card */
-    min-height: var(--card-min-height); /* Tinggi card */
+    width: var(--card-width); 
+    min-height: var(--card-min-height); 
     background: #ffffff;
-    border-radius: var(--card-radius); /* Radius card */
+    border-radius: var(--card-radius); 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -408,7 +408,7 @@
     width: 100%;
     display: block;
     aspect-ratio: 16 / 9; 
-    border-radius: var(--image-radius); /* Radius gambar */
+    border-radius: var(--image-radius); 
     overflow: hidden;
     margin-bottom: 0px -18px;
 }
@@ -439,9 +439,9 @@
 .pill-label {
     background-color: var(--accent-yellow);
     color: #ffffff;
-    font-size: 13px; /* Ukuran teks label */
+    font-size: 13px; 
     font-weight: 400;
-    padding: 4px 12px; /* Size pill */
+    padding: 4px 12px; 
     border-radius: 50px;
     font-style: italic;
 }
@@ -455,7 +455,7 @@
 
 .card-title {
     color: var(--primary-blue);
-    font-size: 26px; /* Ukuran judul */
+    font-size: 26px; 
     font-weight: 800;
     margin: 0;
 }
@@ -463,8 +463,8 @@
 /* BUTTON BULAT */
 
 .btn-arrow {
-    width: 55px;  /* Ukuran tombol */
-    height: 55px; /* Ukuran tombol */
+    width: 55px;  
+    height: 55px; 
     background: none;
     width: auto;
     height: auto;
